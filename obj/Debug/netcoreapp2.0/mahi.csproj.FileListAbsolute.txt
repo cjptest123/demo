@@ -1,0 +1,10 @@
+C:\Users\Administrator\Documents\mahiproject\mahi\bin\Debug\netcoreapp2.0\mahi.deps.json
+C:\Users\Administrator\Documents\mahiproject\mahi\bin\Debug\netcoreapp2.0\mahi.runtimeconfig.json
+C:\Users\Administrator\Documents\mahiproject\mahi\bin\Debug\netcoreapp2.0\mahi.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\mahiproject\mahi\bin\Debug\netcoreapp2.0\mahi.dll
+C:\Users\Administrator\Documents\mahiproject\mahi\bin\Debug\netcoreapp2.0\mahi.pdb
+C:\Users\Administrator\Documents\mahiproject\mahi\obj\Debug\netcoreapp2.0\mahi.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\mahiproject\mahi\obj\Debug\netcoreapp2.0\mahi.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\mahiproject\mahi\obj\Debug\netcoreapp2.0\mahi.AssemblyInfo.cs
+C:\Users\Administrator\Documents\mahiproject\mahi\obj\Debug\netcoreapp2.0\mahi.dll
+C:\Users\Administrator\Documents\mahiproject\mahi\obj\Debug\netcoreapp2.0\mahi.pdb

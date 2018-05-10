@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace sample
+namespace mahi
 {
     class Program
     {

@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\sample\\sample.csproj",
-      "projectName": "sample",
-      "projectPath": "C:\\sample\\sample.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\mahiproject\\mahi\\mahi.csproj",
+      "projectName": "mahi",
+      "projectPath": "C:\\Users\\Administrator\\Documents\\mahiproject\\mahi\\mahi.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\sample\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Documents\\mahiproject\\mahi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
