@@ -9,9 +9,9 @@ pipeline {
             }
         }
         
-        stage ('Junit') {
-            steps {
-                dir(path: )
+      //  stage ('Junit') {
+        //    steps {
+          ///      dir(path: )
         stage('SonarQube analysis') {
             
             steps {
