@@ -4,9 +4,11 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                script {
                 bat 'dotnet clean'
                 bat 'dotnet build'
             }
+        }
         }
         stage('SonarQube analysis') {
             
