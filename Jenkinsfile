@@ -19,6 +19,7 @@ pipeline {
       bat 'dotnet build'
           bat 'dotnet ${SONAR_HOME}  end'
     }
+                }
   }
  }  
 }
