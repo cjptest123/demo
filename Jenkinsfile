@@ -11,6 +11,7 @@ pipeline {
         stage('SonarQube analysis') {
             
             steps {
+                script {
       def SONAR_HOME = tool 'sonar'
       withSonarQubeEnv('sonar') {
    
