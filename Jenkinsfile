@@ -10,14 +10,14 @@ pipeline {
             }
         }
         }
-        stage('Sonar') {
+        //stage('Sonar') {
             
-            steps {
-                script {
-                    powershell(returnStdout: true, script: '.\\sonar.ps1')
-                }
-            }
-        }
+            // steps {
+            //    script {
+           //         powershell(returnStdout: true, script: '.\\sonar.ps1')
+         //       }
+        //    }
+      //  }
      // def SONAR_HOME = tool 'sonar'
      // withSonarQubeEnv('sonar') {
    
@@ -25,7 +25,7 @@ pipeline {
       //bat '%dotnet% %build%'
     //      bat '%dotnet% %{SONAR_HOME}%  %end%'
    // }
-                }
+          //`      }
 }
   //}
  //}  
