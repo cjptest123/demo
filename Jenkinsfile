@@ -9,8 +9,21 @@ pipeline {
                 bat 'dotnet build'
             }
         }
-        }
+    
+       }
+        stage ('Sonar') {
+            steps {
+                script { 
+                    def scannerhome=tool 'Sonar'
+                    withSonarQubeEnv {'Sonar'} {
+                        bat 'scannerhome/bin/sonar-scanner'
+                    }
+                }
+            }
+                    
+                    
     }
+    
         //stage('Sonar') {
             
             // steps {
