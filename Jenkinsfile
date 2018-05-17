@@ -42,7 +42,7 @@ pipeline {
     //      bat '%dotnet% %{SONAR_HOME}%  %end%'
    // }
           //`      }
-}
+
   //}
  //}  
 //}
