@@ -11,19 +11,20 @@ pipeline {
         }
     
        }
-    }
-     //   stage ('sonar') {
-       //     steps {
-       //         script { 
-       //             def scannerhome=tool 'sonar'
-       //             withSonarQubeEnv {'sonar'} {
-       //                 bat 'scannerhome/bin/sonar-scanner'
-       //             }
-       //         }
-       //     }
+    
+       stage ('sonar') {
+            steps {
+                script { 
+                    def scannerhome=tool 'sonar'
+                    withSonarQubeEnv {'sonar'} {
+                        bat 'scannerhome/bin/sonar-scanner'
+                    }
+                }
+            }
                     
-       // }         
-   // }
+        }         
+    }
+}
     
         //stage('Sonar') {
             
