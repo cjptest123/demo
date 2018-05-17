@@ -37,7 +37,7 @@ pipeline {
         stage ('sonar') {
             steps {
                 
-                script {
+                
       def SONAR_HOME = tool 'sonar'
       withSonarQubeEnv('sonar') {
    
@@ -45,7 +45,7 @@ pipeline {
       bat 'dotnet build'
           bat 'dotnet ${SONAR_HOME}  end'
     }
-          `      }
+       
 
   }
  }  
